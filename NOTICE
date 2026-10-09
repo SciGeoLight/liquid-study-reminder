@@ -1,0 +1,21 @@
+学习提醒 / Study Reminder
+Copyright 2026 SciGeoLight
+
+This product depends on, and contains code adapted from, AndroidLiquidGlass
+(Backdrop library and its catalog sample) by Kyant
+https://github.com/Kyant0/AndroidLiquidGlass
+Licensed under the Apache License, Version 2.0.
+
+Adapted (modified) files in this repository:
+  app/src/main/java/com/partner/studyreminder/ui/glass/DampedDragAnimation.kt
+    - from catalog/utils/DampedDragAnimation.kt
+  app/src/main/java/com/partner/studyreminder/ui/glass/InteractiveHighlight.kt
+    - from catalog/utils/InteractiveHighlight.kt
+  app/src/main/java/com/partner/studyreminder/ui/glass/LiquidBottomTabs.kt
+    - from catalog/components/LiquidBottomTabs.kt
+  app/src/main/java/com/partner/studyreminder/ui/glass/Gestures.kt
+    - drag inspection helper from the catalog
+  app/src/main/java/com/partner/studyreminder/ui/glass/Liquid.kt
+    - stretch math from catalog/components/LiquidButton.kt
+These files were modified for this app (package, colours, springs, layout,
+press/drag behaviour).
